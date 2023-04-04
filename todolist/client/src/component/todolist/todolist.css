@@ -1,0 +1,76 @@
+.todolist{
+    border:1px solid green;
+    width:50%;
+    margin:25vh auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 4px 8px black;
+}
+.form-container{
+    /* border:1px solid green; */
+    width:100%;
+    text-align: center;
+    margin:10px;
+}
+.form-container input{
+    width:80%;
+    border:none;
+    outline:none;
+    margin:10px 10px;
+    padding: 0px 10px;
+    font-size: large;
+    border-bottom: 1px solid gainsboro;
+}
+.list-container{
+    width:80%;
+    /* border:1px solid green; */
+}
+.todo-item{
+    display:flex;
+    /* width:80%; */
+    justify-content: space-between;
+    align-items: center;
+    /* border:1px solid black; */
+}
+.item-text{
+    padding-left:10px;
+    margin: 20px 0px;
+    /* border:1px solid black; */
+    text-transform: capitalize;
+    width:76%;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-bottom: 1px solid gainsboro;
+}
+.item-text input{
+    width:100%;
+    border:none;
+    outline: none;
+    /* padding: ; */
+    font-size: 15px;
+}
+.item-text p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.item-btn button{
+    margin-right:0.6rem;
+}
+
+button{
+    background-color:#5783db;
+    color:snow;
+    border-radius:6px;
+    height: 30px;
+}
+button:hover{
+    /* background-color: blue; */
+    color: black;
+}
+button:active{
+    background-color: blue;
+}
